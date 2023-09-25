@@ -1,16 +1,23 @@
 backend:
-  name: dprtfolio
+  name: github
+  repo: danielle-palumbo/dprtfolio
+  branch: main
 
 media_folder: static/assets
 public_folder: /assets
 
 collections:
   - name: projects
-    label: Projects
+    label: Project
     folder: projects
     create: true
     fields:
       - { name: path, label: Path }
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
-      - { name: body, label: Body, widget: markdown }
+      - { name: shortDesc, label: Project brief, widget: markdown }
+      - { name: role, label: Role }
+      - { name: objectives, label: Objectives, widget: markdown }
+      - { name: process, label: Process, widget: markdown }
+      - { name: outcomes, label: Outcomes, widget: markdown }
+      

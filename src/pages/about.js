@@ -123,17 +123,22 @@ const links = [
   },
 ]
 
-const IndexPage = () => {
+const AboutPage = () => {
   return (
     <main style={pageStyles}>
       <h1 style={headingStyles}>
-        WAhOOOOO
+        About
         <br />
         <span style={headingAccentStyles}>— you just made a Gatsby site! 🎉🎉🎉</span>
       </h1>
-      <p style={paragraphStyles}>
-        Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
-        update in real-time. 😎
+      <p style={paragraphStyles}>I am currently a Technical Content Specialist at IBM. I work in various roles across project teams in IBM Z, including technical content development, user experience design, visual design and front-end development.
+
+Previously, I was a Senior Interactive Designer at Protective Industrial Products in Albany, NY, where I designed and developed custom sales, content management tools and digital product experiences for several brands under the PIP Global umbrella. Before that, I was a Designer/Creative Strategist for Mark & Phil, a small digital marketing agency focused on servicing non-profits.
+
+With nearly ten years of experience in the field, I have been lucky enough to work on a large variety of projects with a diverse group of clients. I love what I do because there will always be new challenges, more to learn and different ways to evolve.
+
+When I'm not at my desk, I probably have an xbox controller in my hand, or I'm off adventuring in nature somewhere.
+
       </p>
       <ul style={listStyles}>
         <li style={docLinkStyle}>
@@ -171,6 +176,6 @@ const IndexPage = () => {
   )
 }
 
-export default IndexPage
+export default AboutPage
 
-export const Head = () => <title>Home Page</title>
+export const Head = () => <title>About Page</title>
